@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="homepage.js"></script>
+</head>
+<body>
+    <nav class="app-bar">
+        <div class="app-bar-content">
+            <div class="logo-container">
+                <img src="https://via.placeholder.com/40" alt="Logo" class="logo">
+                <span class="app-title">Homepage</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to Your Dashboard</h1>
+        <div class="user-info">
+            <h2>User Information</h2>
+            <p><strong>First Name:</strong> <span id="loggedUserFName"></span></p>
+            <p><strong>Last Name:</strong> <span id="loggedUserLName"></span></p>
+            <p><strong>Email:</strong> <span id="loggedUserEmail"></span></p>
+        </div>
+
+        <div class="action-buttons">
+            <a href="update-profile.html" class="btn">Update Profile</a>
+            <button id="logout" class="btn" style="background: #dc3545;">Logout</button>
+        </div>
+    </div>
+</body>
+</html>
